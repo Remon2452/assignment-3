@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+body{
+    font-family: "ADLaM Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #fdfaf5;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo img {
+    width: 30px;
+    margin-right: 8px;
+}
+.highlight {
+   
+  color: #FFDC26;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 20px;
+}
+.buttons {
+   
+        display: flex;
+        gap: 12px;
+    
+}
+button {
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.login {
+    border: 1px solid rgb(255, 220, 38);
+    border-radius: 8px;
+}
+.register {
+    background-color: #FFDC26;
+    color: #111111;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background-color: #fff;
+}
+.hero-text {
+    max-width: 50%;
+}
+.hero-text h1 {
+    font-size: 56px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+}
+.hero-text p {
+ 
+    
+        color: #666;
+        margin-bottom: 20px;
+   
+    margin-bottom: 20px;
+}
