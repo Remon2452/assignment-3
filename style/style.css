@@ -91,3 +91,44 @@ button {
    
     margin-bottom: 20px;
 }
+.cta {
+    background-color: #FFDC26;
+    color: #111111;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+}
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttons {
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-image img {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+}
